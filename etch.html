@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">    
+    <link href="etch.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="page">
+        <h1>ETCH-A-SKETCH</h1>
+        <label for="quantity">Type A Value For Grid Size:</label>
+        <input type="number" id="quantity" name="quantity" />
+        <button class="reset">RESET</button>
+      </div>
+    <button onClick="window.location.reload();">Refresh</button>
+<button onClick="createDiv()">Click me!</button>
+<div id="grid" class="grid">
+<div id="getText" style="display: none;">
+  BOXY BOXY BOXY
+    </div>    
+</div>
+<!-- <div class="grid" id="main">
+</div>-->
+
+  
+  <div style="width: 50%;height: 100px;padding: 10px;margin: 10px 0" id="div1">
+    <h1>Click me to add a new movie. </h1>
+  </div>
+<script src="etch.js"></script> 
+
+</body>
+</html>

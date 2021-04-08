@@ -1,0 +1,83 @@
+body {
+    margin: 50px;
+    height: 3000px;
+}
+
+.box {   
+   text-align: center;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.a {
+  background-color: aquamarine;
+}
+
+/*.box:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+  padding: 20px;
+  border-radius: 15px;
+
+ 
+  -webkit-transition: border-radius 2s;
+}*/
+
+
+.grid {
+    border: 5px solid #111211;
+    display: grid;
+    height: calc(100vw - 101px);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+
+  /*.grid div {
+       /* bg to show i'm squarred or not ? */
+  /*background-image: linear-gradient( 45deg, transparent 50%, rgba(0, 0, 0, 0.5) 50%);
+ 
+  margin: 0 5px 5px 0;  /*instead playing around with grid gap gap 
+   background-color: rgb(80, 185, 193);
+  }*/
+
+ /*.grid div:before {
+    color: white;
+    content: 'Div N°: ';
+    padding-bottom: 100%;
+   
+  }*/
+  
+  
+  /*.grid > *:first-child {
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+  } */
+  
+  /* Just to make the grid visible */
+  
+  /* .grid > * {
+    background: rgba(0,0,0,0.1);
+    border: 1px white solid;
+ 
+  }*/   
+
+
+.dot {
+  width: 2px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+}
+
+#div1 {
+  background-color: yellow;
+}
+
+.cdiv1 {
+  background-color: #bdefb8;
+  width: 50%;
+  height: 100px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 4px solid;
+  border-color: red;
+}
